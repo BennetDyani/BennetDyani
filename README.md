@@ -95,7 +95,8 @@ Professional development with hands-on experience and soft skills.
 This upgrade increases my credibility, strengthens my job applications, and puts me in a far stronger position for interviews and internship offers.
 
 
--  [Download My CV]([resume_bennet_dyani (3).pdf](https://github.com/user-attachments/files/20415707/resume_bennet_dyani.3.pdf) 
+-  [Download My CV]([resume_bennet_dyani (3).pdf]([Software Engineering_Resume_Bennet_Dyani.pdf](https://github.com/user-attachments/files/20699773/Software.Engineering_Resume_Bennet_Dyani.pdf)
+) 
 -  [LinkedIn Profile](https://www.linkedin.com/in/bennet-dyani-543b03288/)
 
 > Creating my CV forced me to organize my chaos into a story. Now it's my dev saga, not just a job application.
