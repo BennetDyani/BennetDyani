@@ -1,6 +1,6 @@
 ## 👨‍💻 About Me
 # BENNET DYANI
-<br> <a href="https://github.com/BennetDyani">Java Software Developer</a>
+<br> <a href="https://github.com/BennetDyani">Software Developer</a>
 
 
 I'm a Software Engineering student with a strong focus on building full-stack, real-world Java applications. My current studies are rooted in applied development, with an emphasis on turning business problems into working software solutions. I believe in writing code that ships, scales, and solves actual problems—not just passes tests.
