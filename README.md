@@ -1,4 +1,3 @@
-Here's an updated readMe for your github it uses less emojis is easier to scan and read through
 ----------------------
 # 👨‍💻 Bennet Dyani
 
