@@ -1,85 +1,111 @@
-----------------------
-# 👨‍💻 Bennet Dyani
+# 👋 Hi, I’m Bennet Dyani
 
-**Software Developer | Java & Full-Stack Enthusiast**
+🎓 Graduate Software Developer (NQF 6)  
+💻 Software Development | Backend & Agentic AI  
+📍 Johannesburg, South Africa  
 
-I’m a Software Engineering student passionate about building **real-world, full-stack Java applications**. 
-I focus on writing code that ships, scales, and solves problems — not just passes tests.
+I’m a graduate software developer with a strong foundation in **backend engineering** and a growing focus on **Agentic AI systems**.
 
----
+I build **production-oriented backend applications** using Java and Spring Boot, and I’m actively exploring how **LLM-powered agents**, tools, and workflows can be designed, orchestrated, and integrated into real-world software systems.
 
-## 🎓 Currently Learning (Final-Year Modules)
-
-- **Applications Development:** Enterprise Java development using real-world backend logic. 
-- **Applications Development Theory:** Software engineering principles, system design & architecture. 
-- **Information Systems:** Advanced database design (MySQL, SQLite) with a business focus. 
-- **Project 3:** End-to-end team project simulating real-world ICT delivery. 
-- **Professional Practice:** Research, ethics & communication in a tech environment. 
-- **Project Management:** Agile + PMBOK-based planning and delivery.
+My interests sit at the intersection of **software engineering, automation, and intelligent systems**.
 
 ---
 
-## 🛠️ Tech Skills
+## 🛠️ Core Technical Skills
 
-### 💻 Languages
-`Java` · `JavaScript` · `Kotlin` · `HTML5` · `CSS3`
+### Backend Engineering
+- Java
+- Spring Boot
+- RESTful API design
+- JPA / Hibernate
+- MVC & Layered Architecture
 
-### 🧱 Frameworks & Libraries
-`Spring Boot` · `React` · `Flutter` · `Node.js`
+### Databases
+- PostgreSQL
+- MySQL
+- SQLite
+- H2
 
-### 🗄️ Databases
-`MySQL` · `PostgreSQL` · `SQLite`
+### Agentic AI & Intelligent Systems
+- LLM-powered agent workflows
+- Tool-using agents & task orchestration
+- Prompt engineering & structured outputs
+- AI-assisted backend automation
+- Exploring multi-agent architectures
 
-### 🧪 Tools & Platforms
-`Docker` · `Postman` · `Git` · `GitHub` · `Maven` · `Firebase`
+### Frontend & Mobile Exposure
+- JavaScript
+- HTML5, CSS3
+- React (basic)
+- Flutter
 
-### 🧠 IDEs & Design Tools
-`IntelliJ IDEA` · `VS Code` · `NetBeans` · `Figma`
-
----
-
-## 📚 Previously Learned
-
-- **Python & OOP:** Object-oriented programming and logic fundamentals. 
-- **Android Studio & Kotlin:** Mobile app development fundamentals. 
-- **Multimedia Applications:** UI/UX and interface design. 
-- **Networking Fundamentals:** LAN/WAN, TCP/IP. 
-- **Data Structures & Algorithms:** Application development foundations. 
-- **Web Basics:** HTML, CSS, JavaScript, and pseudocode. 
-- **Business Practice:** Entrepreneurship, accounting, and economics.
-
----
-
-## 🚧 Featured Projects
-
-| 🧩 Project | 📝 Description | 🧰 Tech Stack |
-|------------|----------------|----------------|
-| **Wisebank (mobile banking app)** |Its a mobile banking app that only include the core needed functionality without the complicated stuff such as funeral policy, bond culculations etc | `Java`, `Flutter`,`Dart`, `Spring Boot 3`|
-| **Shuttle Tracking App** | Full Stack Mobile app designed for Shuttle Admins, Drivers and CPUT Studnets to track shuttle on real time  | `Dart`,`Flutter`,`PostfgreSQL`|
-| **ResiFind** | Full-stack system for CPUT student residence applications | `Node.js`, `Express`, `SQLite`, `HTML/CSS/JS` |
-| **Employee Manager (Swing)** | GUI app for managing employee data | `Java`, `OOP`, `File I/O` |
-| **Spring Boot API - Student** | REST API managing student data | `Java`, `Spring Boot`, `JPA`, `H2/PostgreSQL` |
-| **Spring Boot API - Software Engineer** | REST API containerized with Docker | `Java`, `Spring Boot`, `JPA`, `Docker`, `MySQL` |
-| **Android Authentication App** | Android app handling user login and registration | `Kotlin`, `Room Database` |
-| **GuessGame** | Console-based number guessing game | `Java` |
-| **More coming soon...** | Ongoing backend & frontend projects | `Java`, `React`, `SQL` |
+### Tools & Platforms
+- Git & GitHub
+- Docker
+- Maven
+- Postman
+- Firebase
 
 ---
 
-## 🧭 Goals
+## 📌 Featured Projects
 
-I’m currently focused on mastering **production-ready Java development** - building clean architectures, scalable databases, and intuitive front-end experiences.
+### 🔹 Agentic AI Practice Projects
+**LLMs • Agent Workflows • Automation Concepts**  
+A growing collection of projects focused on building and experimenting with **agent-based AI systems**, including task decomposition, tool usage, and intelligent decision flows.
 
----
-
-## 🔗 Connect with Me
-
-- 🐙 [GitHub](https://github.com/BennetDyani)
-- 💼 [LinkedIn](https://linkedin.com/in/bennet-dyani-543b03288)
-- 📧 [Email](mailto:bennetdyani@gmail.com)
-- 📸 [Instagram](https://instagram.com/bennetdyani)
+> Focus: understanding how autonomous or semi-autonomous agents can support real software systems.
 
 ---
 
-⭐ *"Write code that solves real problems - not just passes tests."*
--------------------------------------------------
+### 🔹 Spring Boot REST API (Dockerized)
+**Java • Spring Boot • JPA • Docker • PostgreSQL**  
+A production-style backend REST API demonstrating clean architecture, database integration, and containerized deployment.
+
+---
+
+### 🔹 ResiFind – Student Residence Application System
+**Node.js • Express • SQLite • HTML/CSS/JavaScript**  
+A full-stack web application designed to manage student residence applications, featuring structured workflows and persistent data storage.
+
+---
+
+### 🔹 Wisebank – Mobile Banking Application
+**Flutter • Dart • Spring Boot**  
+A simplified mobile banking application focusing on core banking functionality, backend integration, and clean user experience.
+
+👉 See pinned repositories below for full implementations.
+
+---
+
+## 🧠 Key Concepts & Strengths
+- Object-Oriented Programming (OOP)
+- Backend system design
+- REST API architecture
+- Database modeling & integration
+- Clean code & maintainability
+- Version control & collaboration
+- Bridging traditional software systems with AI capabilities
+
+---
+
+## 🌱 Current Focus
+- Building **Agentic AI projects** with practical use cases
+- Deepening backend expertise with Java & Spring Boot
+- Exploring how AI agents integrate into existing software architectures
+- Preparing for **Junior / Graduate Software Developer** roles with AI exposure
+
+---
+
+## 🎯 Career Direction
+To grow as a **Software Engineer** who can design reliable backend systems and progressively incorporate **Agentic AI** to build smarter, more automated applications.
+
+I’m particularly interested in roles that value strong engineering fundamentals alongside modern AI experimentation.
+
+---
+
+## 📫 Let’s Connect
+- **GitHub:** https://github.com/BennetDyani  
+- **LinkedIn:** https://www.linkedin.com/in/bennet-dyani-543b03288/  
+- **Email:** bennetdyani@gmail.com
