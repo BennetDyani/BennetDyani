@@ -1,412 +1,93 @@
-# 👋 Hi, I'm Bennet Dyani
-
-### Software Developer | Agentic AI Engineer | AI Systems Builder
-
-I'm a software developer focused on building **backend systems, AI-powered applications, agentic workflows, and intelligent automation**.
-
-My engineering background is grounded in **Java, Spring Boot, REST APIs, SQL, and software architecture**, while my recent work has expanded into **LLMs, RAG, AI agents, tool orchestration, embeddings, vector databases, multimodal AI, and workflow automation**.
-
-I enjoy working at the intersection of:
-
-**Software Engineering × AI × Automation × Data**
-
+# Hi, I'm Bennet Dyani 👋
+ 
+### Agentic AI Engineer · I build AI agents that connect to real systems, with the guardrails businesses need
+ 
+I design and build **AI agents, RAG systems and backend services** that do real work: investigating financial risk, answering questions from enterprise documents, and automating business workflows. I build them with the controls enterprises need: grounded answers, human approval for consequential actions, and audit trails.
+ 
+- 🏢 **Enterprise experience:** built and tested AI agents on **BMC Helix / HelixGPT** at New Island Technologies
+- 🏆 **Latest build:** [TrustAgent](https://github.com/BennetDyani/aws_hackathon), a Claude-powered financial risk investigation agent (AWS Hackathon 2026)
+- 🎯 **Open to:** Junior–Intermediate **AI Engineer / AI Solutions Engineer** roles · Gauteng, hybrid or remote
+- 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/bennet-dyani-543b03288/) · bennetdyani@gmail.com
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL%20%2B%20pgvector-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+</p>
 ---
-
-## 🧠 What I Build
-
-I build systems where AI is connected to real software, data, and tools rather than existing only as a chatbot.
-
-Some of the systems I've built or worked on include:
-
-- AI-powered document intelligence and RAG systems
-- Tool-using AI agents
-- Stateful conversational assistants
-- Multimodal AI applications
-- AI-powered workflow automation
-- REST APIs and backend services
-- Database-backed applications
-- LLM evaluation and model comparison workflows
-- AI systems connected to structured and unstructured data
-
+ 
+## ⭐ Featured projects
+ 
+### 🔍 [TrustAgent](https://github.com/BennetDyani/aws_hackathon): AI financial risk investigation agent
+`TypeScript` `Next.js` `Amazon Bedrock` `Claude Sonnet 4.6` `Server-Sent Events`
+ 
+Most fraud systems stop at raising an alert. **TrustAgent carries out the investigation too.** Given a suspicious invoice, a Claude agent works through **8 specialised tools** (invoice analysis, supplier lookup, transaction history, policy checks and more), collects evidence, and recommends an action.
+ 
+- **Deterministic risk scoring (0–100):** the score is calculated in code, not by the LLM, so it's reproducible and explainable
+- **Human-in-the-loop:** the agent can recommend holding a payment but can't execute any financial decision without approval
+- **Full audit trail:** every finding records its source, severity and risk contribution, and a live activity feed streams each step as it happens
+- Built with a full requirements document, system design, test plan and deployment guide
+### 🏠 AI Property Rental Management Platform *(in progress)*
+`Python` `LangGraph` `FastAPI` `PostgreSQL + pgvector` `Docker` `n8n`
+ 
+A multi-agent platform where an **intent router** sends each request to one of **4 specialist agents** (Tenant, Payment, Maintenance, Forecasting). The agents use tools, RAG over leases and records, and persistent conversation state.
+ 
+```
+n8n → FastAPI → LangGraph router → specialist agents → tools → PostgreSQL / pgvector
+```
+ 
+It supports switching between Groq and local Ollama models based on cost, performance and privacy needs.
+ 
+### 📨 AI Property Management Front Desk
+`n8n` `OpenAI` `Airtable` `Gmail` `Telegram`
+ 
+A production-style automation that takes tenant messages from **3 channels**, normalises them into a single schema, classifies intent with structured LLM outputs, and routes each request to the right workflow.
+ 
+- Owner commands are authorised by **identity, not by the LLM's interpretation**
+- Scheduled jobs are idempotent and handle errors centrally
+- **Debugging story:** traced a production self-triggering email loop through the n8n execution history and fixed it with a filter for self-sent messages
+### 📄 Document Intelligence Hub
+`Python` `LangChain` `ChromaDB` `Hugging Face` `Streamlit`
+ 
+A RAG platform that turns PDF, DOCX and TXT files into searchable knowledge. It covers ingestion, chunking, embeddings, citation-aware Q&A, compliance/risk flagging, audit logging, and retrieval diagnostics with a keyword-search fallback.
+ 
 ---
-
-## 🚀 Current Technical Focus
-
-### Agentic AI & LLM Engineering
-
-- LLM API integration
-- Prompt engineering
-- Structured outputs
-- Tool calling
-- Agent orchestration
-- Stateful conversations
-- Memory design
-- RAG pipelines
-- Document ingestion
-- Chunking and indexing
-- Embeddings
-- Semantic search
-- Vector databases
-- Multimodal AI
-- LLM response evaluation
-- Model comparison
-- Model/API switching
-- Local LLM deployment with Ollama
-- AI workflow automation
-
-### AI Engineering & Infrastructure
-
-- LangChain
-- LangGraph
-- Chroma
-- PostgreSQL + pgvector
-- Hugging Face
-- Sentence Transformers
-- Ollama
-- LangSmith
-- Docker
-- Logging and tracing
-- AI application monitoring
-- RAG evaluation
-- LLM evaluation
-
-### Backend Engineering
-
-- Java
-- Spring Boot
-- Python
-- FastAPI
-- REST APIs
-- JPA / Hibernate
-- SQL
-- PostgreSQL
-- MySQL
-- SQLite
-- MVC
-- Layered architecture
-- Database design
-
-### Automation
-
-- n8n
-- API integrations
-- Webhooks
-- Workflow orchestration
-- Event-driven automation
-- Scheduled workflows
-- AI-powered business process automation
-
-### Frontend & Application Development
-
-- JavaScript
-- HTML5
-- CSS3
-- React
-- Flutter
-- Streamlit
-
-### Engineering Tools
-
-- Git
-- GitHub
-- Docker
-- Maven
-- Postman
-- Jupyter
-- VS Code
-- IntelliJ IDEA
-
+ 
+## 💼 Experience
+ 
+**Agentic AI Engineering Intern, New Island Technologies** · *Feb 2026 – Jul 2026*
+ 
+- Built AI agents on **BMC Helix Innovation Studio and HelixGPT** that search enterprise knowledge bases, read documents, call APIs and complete defined business tasks
+- Configured knowledge sources, tools, permissions and guardrails to keep answers grounded in approved information
+- Tested agents with normal, out-of-scope and adversarial inputs to find loopholes, validate guardrails and verify task completion
+**Software Developer Intern, Plum Systems** · *Jan 2025 – Dec 2025*
+ 
+- Built features for web and mobile apps with React, React Native and Firebase in an Agile team
 ---
-
-# 💼 Professional Experience
-
-## Agentic AI Engineer Intern — New Island Technologies
-
-**Feb 2026 – July 2026**
-
-Worked with **BMC Helix Innovation Studio** to design and implement enterprise AI applications using low-code/no-code application development and HelixGPT.
-
-Built and integrated AI-powered chatbots and agents capable of:
-
-- Searching enterprise knowledge bases
-- Finding and retrieving relevant documents
-- Reading document contents
-- Calling APIs and interacting with enterprise systems
-- Executing defined tasks through available tools
-- Generating grounded responses from approved enterprise knowledge
-
-A major focus was **AI validation and safety testing**, including:
-
-- Testing out-of-scope questions
-- Testing attempts to push the system outside its intended boundaries
-- Validating task completion
-- Evaluating response quality and consistency
-- Checking tone and conversational behaviour
-- Identifying potential loopholes and failure cases
-
-This gave me practical exposure to deploying AI capabilities inside an **enterprise workflow platform**, rather than only experimenting with standalone LLM applications.
-
+ 
+## 🛠️ Tech stack
+ 
+| Area | Tools |
+| --- | --- |
+| **Agentic AI & LLMs** | LangGraph, LangChain, tool calling, RAG, structured outputs, Claude, OpenAI, Gemini, Groq, Ollama, Hugging Face, Amazon Bedrock |
+| **Retrieval** | PostgreSQL + pgvector, ChromaDB, Sentence Transformers, semantic and keyword search |
+| **Backend** | Python, FastAPI, TypeScript, Next.js, Java, Spring Boot, REST APIs, SQL, SQLAlchemy |
+| **Automation** | n8n, webhooks, API integrations, scheduled workflows |
+| **Quality & Ops** | LangSmith, Pytest, JUnit, Docker, Docker Compose, Git, Linux |
+ 
 ---
-
-# 🧪 AI Engineering Projects
-
-## Document Intelligence Hub
-
-**Python · LangChain · Chroma · Hugging Face · Streamlit · RAG**
-
-An AI-powered document intelligence platform designed to transform enterprise documents into searchable knowledge.
-
-### Built capabilities including:
-
-- Document ingestion
-- PDF/DOCX/TXT processing
-- Document chunking
-- Metadata extraction
-- Embedding generation
-- Vector storage
-- Semantic search
-- Retrieval-Augmented Generation
-- Citation-aware question answering
-- Compliance/risk flagging
-- Audit logging
-- Retrieval diagnostics
-
-The project was developed as a code-heavy experimental platform to understand the architecture behind enterprise document intelligence systems.
-
----
-
-## AI Property Management Platform
-
-**Python · LangGraph · LangChain · FastAPI · PostgreSQL · pgvector · Docker**
-
-An agentic property-management platform combining AI agents with backend services and workflow automation.
-
-The system is designed around specialised agents for:
-
-- Tenant questions
-- Payment tracking
-- Maintenance management
-- Income forecasting
-
-The architecture includes:
-
-**n8n → FastAPI → LangGraph → Specialist Agents → Tools → PostgreSQL/pgvector**
-
-Key engineering concepts include:
-
-- Stateful agent orchestration
-- Conditional routing
-- Tool calling
-- RAG
-- Semantic retrieval
-- Persistent conversation state
-- REST APIs
-- PostgreSQL vector search
-- Dockerised services
-- Ollama/Groq model switching
-
----
-
-## AI Property Management Front Desk
-
-**n8n · OpenAI · LangChain · Airtable · Gmail · Telegram**
-
-An AI-powered front-desk automation system for residential property management.
-
-The system receives tenant communication through multiple channels and normalises them into a common message structure before routing them through AI and business logic.
-
-### Features
-
-- Multi-channel tenant communication
-- AI intent classification
-- Owner command agent
-- Tenant management
-- Maintenance ticket creation
-- Conversational reporting
-- Scheduled compliance monitoring
-- Financial reporting
-- Error handling workflows
-- Identity-based owner authentication
-- Idempotent scheduled jobs
-
-A key production issue involved an email self-triggering loop caused by the system processing its own owner alerts. I diagnosed the issue and implemented a self-sent message filter to prevent recursive execution.
-
----
-
-## AI / LLM Engineering Practice Projects
-
-A collection of smaller projects used to develop practical understanding of modern AI systems.
-
-### LLM Calling
-Explored:
-
-- LLM API integration
-- Prompt engineering
-- Temperature tuning
-- Model comparison
-- Response evaluation
-
-### RAG & Vector Search
-
-Built pipelines covering:
-
-- Document chunking
-- Embeddings
-- Vector indexing
-- Similarity search
-- Retrieval
-- Grounded generation
-
-### Tool-Using Agents
-
-Built agents capable of:
-
-- Selecting tools
-- Calling structured functions
-- Retrieving external data
-- Producing final responses from tool results
-
-### Stateful Assistants
-
-Explored:
-
-- Conversation history
-- Context retention
-- Memory
-- Multi-turn interactions
-
-### Multimodal AI
-
-Built applications combining:
-
-**Image → Vision-language model → Structured interpretation**
-
-### Visual Agent Builder
-
-Built a Streamlit prototype allowing users to visually configure:
-
-- Models
-- Prompts
-- Tools
-- Memory
-- Agent configuration
-
----
-
-# ☕ Backend Engineering Projects
-
-## WiseBank
-
-**Flutter · Java · Spring Boot · MySQL**
-
-A mobile banking application focused on core financial workflows.
-
-Implemented functionality including:
-
-- Account management
-- Transactions
-- Withdrawals
-- Transfers
-- Savings
-- Beneficiary management
-- Virtual card concepts
-
-The project combines a mobile frontend with a Spring Boot backend and relational database.
-
----
-
-## ResiFind
-
-**Node.js · Express · SQLite · JavaScript**
-
-A student residence management application designed around structured application and accommodation workflows.
-
----
-
-# 🧩 Engineering Concepts
-
-- Object-Oriented Programming
-- SOLID principles
-- REST architecture
-- Layered architecture
-- MVC
-- Database modelling
-- SQL
-- API integration
-- Authentication & authorization
-- Event-driven workflows
-- Agent orchestration
-- Retrieval-Augmented Generation
-- Semantic search
-- Vector databases
-- Prompt engineering
-- AI evaluation
-- Workflow automation
-- Containerisation
-- Git-based development
-
----
-
-# 🎓 Education
-
-**Cape Peninsula University of Technology (CPUT)**  
-Diploma in Information and Communication Technology  
-Major: Application Development  
-**2023 – 2025**
-
----
-
-# 📜 Certifications & Training
-
-- AWS AI Practitioner Badge
-- Google AI Essentials
-- ALX AI Career Essentials
-- Cisco IT Customer Support
-- Cisco Networking Academy — Linux Unhatched
-
----
-
-# 🔬 What I'm Learning
-
-I'm currently going deeper into:
-
-- Production-grade AI systems
-- LLMOps
-- MLOps fundamentals
-- AI observability
-- LLM evaluation
-- Distributed backend systems
-- Cloud AI infrastructure
-- Advanced agent architectures
-- AI security and responsible AI
-- Production deployment and CI/CD
-
----
-
-# 🎯 Career Direction
-
-I'm interested in engineering roles where I can work on the systems behind intelligent products.
-
-Particularly:
-
-- AI Engineer
-- Agentic AI Engineer
-- AI/ML Engineer
-- AI Application Engineer
-- Backend Engineer
-- AI Automation Engineer
-- AI Solutions Engineer
-
-My long-term goal is to become an engineer capable of taking an AI idea from:
-
-**Problem → Architecture → Data → Model → Agent → Backend → Automation → Deployment → Monitoring**
-
-rather than treating AI as an isolated API call.
-
----
-
-# 📫 Connect
-
-**GitHub:** github.com/BennetDyani  
-**LinkedIn:** linkedin.com/in/bennet-dyani-543b03288/  
-**Email:** bennetdyani@gmail.com
+ 
+## 🌱 Currently deepening
+ 
+LLM evaluation and observability · AI security (prompt injection, tool permissions) · MCP · production deployment and CI/CD
+ 
+## 🎓 Education & certifications
+ 
+**Diploma in ICT: Application Development**, Cape Peninsula University of Technology (2023–2025)
+AWS AI Practitioner Challenge (AWS × Udacity) · Google AI Essentials · ALX AI Career Essentials · Cisco Linux Unhatched · Cisco IT Customer Support Basics
